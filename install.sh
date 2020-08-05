@@ -1,3 +1,4 @@
+clear
 echo "Microsoft Plus98 para Linux by Leviatan_san"
 echo "============================================"
 echo "Detecting System..."
