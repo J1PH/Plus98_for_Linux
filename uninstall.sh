@@ -9,4 +9,6 @@ rm /usr/share/icons/BaseBall
 rm /usr/share/icons/"More Windows"
 rm /usr/share/icons/"Leonardo da Vinci"
 rm /usr/share/icons/"Windows 98 Plus"
-rm
+rm /usr/share/icons/Underwater
+rm /usr/share/icons/"The Golden Era"
+rm /usr/share/icons/Nature
