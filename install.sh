@@ -1,3 +1,5 @@
+echo "Microsoft Plus98 para Linux by Leviatan_san
+echo "============================================"
 echo "Detecting System..."
 lsb_release
 echo "Searching Windows 98 Iconpack"
