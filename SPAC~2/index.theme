@@ -1,0 +1,6 @@
+[Sound Theme]
+Name=Space (Windows 98 Plus)
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
