@@ -3,10 +3,11 @@ echo "Microsoft Plus98 para Linux by Leviatan_san"
 echo "============================================"
 echo "Detecting System..."
 lsb_release
+echo "Please Wait"
 echo "Searching Windows 98 Iconpack"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
-echo "Please Wait Copyring Files"
+echo "Copyring Files:"
 cp -r -v DANGEROUS~0 /usr/share/icons/
 cp -r -v INSIDE~0 /usr/share/icons/
 cp -r -v BASEB~0 /usr/share/icons/
