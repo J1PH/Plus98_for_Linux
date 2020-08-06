@@ -1,9 +1,11 @@
+#!/bin/bash
 clear
 echo "Microsoft Plus98 para Linux by Leviatan_san"
 echo "============================================"
 echo "Detecting System..."
 lsb_release
 echo "Please Wait"
+sleep 5s
 echo "Searching Windows 98 Iconpack"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
@@ -107,4 +109,4 @@ mv /usr/share/sounds/THE60~2 /usr/share/sounds/"The 60's USA"
 
 
 echo "Finishing Installing"
-cinnamon-settings
+cinnamon-settings themes
