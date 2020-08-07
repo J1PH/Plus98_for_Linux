@@ -1,26 +1,34 @@
 #!/bin/sh
- 
-# Installation program Plus98! by leviatan
-# ========================================
 _menu()
 {
-    echo "Select opcion:"
+echo Microsoft Plus98! Setup by leviatan_san
+echo =========================================================================
+echo   
+echo Welcome to Setup.
+echo 
+echo This portion of the Setup program prepares Leviatan_san
+echo Plus98! to run your computer.
+echo 
+echo                *To set up plus98! now press 1.
+echo          *To quit Setup without installing Plus98!, press 4.
+echo
+echo
+    echo "Do you select what you want to do?"
     echo
-    echo "1) Install plus98!"
+    echo "1) Continue"
     echo "2) Uninstall Plus98!"
-    echo "3) Check Space"
+    echo "3) Check Enough Space"
     echo "4) Exit"
     echo
-    echo -n "Indica una opcion: "
+    echo -n "Select an option: "
 }
  
-# Muestra la opcion seleccionada del menu
 _mostrarResultado()
 {
     clear
     echo ""
     echo "------------------------------------"
-    echo "Has seleccionado la opcion $1"
+    echo "You have selected the option $1"
     echo "------------------------------------"
     echo ""
 }
@@ -29,17 +37,19 @@ _mostrarResultado()
 opc="0"
  
 # bucle mientas la opcion indicada sea diferente de 9 (salir)
-until [ "$opc" -eq "9" ];
+until [ "$opc" -eq "4" ];
 do
     case $opc in
         1)
             _mostrarResultado $opc
-            ./install.sh
+            chmod -x install.sh
+            sh ./install.sh
             _menu
             ;;
         2)
             _mostrarResultado $opc
-            ./uninstall.sh
+           chmod -x uninstall.sh
+           sh ./uninstall.sh
             _menu
             ;;
         3)
@@ -53,7 +63,7 @@ do
             _menu
             ;;
         *)
-            # Esta opcion se ejecuta si no es ninguna de las anteriores
+            # This option is executed if it is none of the above
             clear
             _menu
             ;;
