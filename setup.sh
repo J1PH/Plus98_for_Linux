@@ -1,17 +1,15 @@
 #!/bin/sh
  
-# Programa de instalacion de Plus98! by leviatan
-# ==============================================
- 
-# Muestra el menu general
+# Installation program Plus98! by leviatan
+# ========================================
 _menu()
 {
-    echo "Selecciona una opcion:"
+    echo "Select opcion:"
     echo
-    echo "1) Instalar plus98!"
-    echo "2) Desinstalar Plus98!"
-    echo "3) Check Space Free"
-    echo "4) Salir"
+    echo "1) Install plus98!"
+    echo "2) Uninstall Plus98!"
+    echo "3) Check Space"
+    echo "4) Exit"
     echo
     echo -n "Indica una opcion: "
 }
