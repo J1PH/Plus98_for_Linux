@@ -18,7 +18,7 @@ SetupClass=BASE
 ; Cabinet file names and associated disks
 ; <cab#> = <disk#>,<cabinet filename>, ID (Unused, must be 0)
 0="Windows Plus! 98 CD-ROM","",0
-1="Windows Plus! 98 CD-ROM","PLUS98.CAB",0
+1="Windows Plus! 98 CD-ROM","install.sh",0
 [SourceDisksFiles]
 ;<file> = <cabinet number>,<subdir>,<filename>,<size>,<checksum>
 ;Note: File is not in a cabinet if cab# is 0
