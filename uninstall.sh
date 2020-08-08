@@ -2,7 +2,6 @@
 echo "Please Wait"
 echo "Deleting Componets"
 echo ""
-rm  /usr/share/fonts/Plus98-Fonts
 rm  /usr/share/icons/"Dangerous Creatures (256 color)"
 rm  /usr/share/icons/"Inside your Computer (high color)"
 rm  /usr/share/icons/"Jungle (256 color)"
@@ -48,3 +47,6 @@ rm  /usr/share/sounds/"Underwater (high color)"
 rm  /usr/share/sounds/"The Golden Era (high color)"
 rm  /usr/share/sounds/"Travel (high color)"
 rm  /usr/share/sounds/"The 60's USA (256 color)"
+
+echo "Updating Fonts"
+fc-cache
