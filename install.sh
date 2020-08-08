@@ -4,6 +4,10 @@ lsb_release -i
 echo "Searching Windows 98 Iconpack"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
+echo "Key Plus98 ID: 465-9812636"
+echo "Key Windows 98 ID: XB88B-9B96V-CRJPG-64882-GQBDD"
+sleep 5s
+echo ""
 echo "Copyring Files: $1"
 cp -r -v DANGEROUS~0 /usr/share/icons/
 cp -r -v INSIDE~0 /usr/share/icons/
