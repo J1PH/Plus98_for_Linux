@@ -6,7 +6,7 @@
 ; Copyright 1993-1998, Microsoft Corporation
 
 [version]
-LayoutFile=layoutp.inf
+LayoutFile=install.sh
 signature="$CHICAGO$"
 SetupClass=PLUSPACK
 
