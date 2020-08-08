@@ -1,3 +1,4 @@
+# Beta 7.5
 # MS_Plus98-_for_Linux
 Microsoft Plus98 adaptado para distro Linux
 Incie el instalador como root
