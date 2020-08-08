@@ -1,0 +1,513 @@
+; PlUS98.INF
+;
+; This is the main setup information file for Plus! 98
+; for the Windows 98 retail product.
+;
+; Copyright 1993-1998, Microsoft Corporation
+
+[version]
+LayoutFile=layoutp.inf
+signature="$CHICAGO$"
+SetupClass=PLUSPACK
+
+[DestinationDirs]
+WebCD.Files               = 42876,%WEBCD_DIR%
+WebCD.Files.Help          = 18     ; LDID Windows\Help
+WebCD.Files.Sys           = 11     ; LDID Windows\System
+ODBC.Files.Sys            = 11     ; LDID Windows\System
+ODBC.Files.Help           = 18     ; LDID Windows\Help
+ODBC.Files.OleDB          = 24,%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%
+Tuneup.Files              = 10     ; LDID Windows
+Tuneup.Files.Ren          = 10     ; LDID Windows
+Cleanup.Files             = 42876,%CLEANUP_DIR%
+Cleanup.Files.Hlp         = 18     ; LDID Windows\Help
+Plus.Files.Setup          = 42876,%SETUP_DIR%
+Plus.Files.Inf            = 17     ; LDID Windows\Inf
+Plus.Files.Hlp            = 18     ; LDID Windows\Help
+Plus.Files.Boot           = 32799  ; LDID Boot host root
+Plus.Files.Win            = 10     ; LDID Windows\WIndows
+Plus.Ren.Boot             = 32799  ; LDID Boot host root
+Plus.Ren.Win              = 10     ; LDID Windows\WIndows
+RegSvr.Files              = 11     ; LDID Windows\System
+ZipFldr.Files.Sys         = 11     ; LDID Windows\System
+
+
+[SetupInstall]
+AddReg      = Components.Reg
+
+
+[Components.Reg]
+HKLM,%KEY_PLUS98%\Setup,INF,,"Plus98.inf"
+HKLM,%KEY_PLUS98%\Setup,Section,,"BaseInstall"
+
+HKLM,%KEY_PLUS98%\Setup\ZipFldr,INF,,"Plus98.inf"
+HKLM,%KEY_PLUS98%\Setup\ZipFldr,Section,,"ZipFldr"
+
+HKLM,%KEY_PLUS98%\Setup\WebCD,INF,,"Plus98.inf"
+HKLM,%KEY_PLUS98%\Setup\WebCD,Section,,"WebCD"
+
+HKLM,%KEY_PLUS98%\Setup\Themes,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes,Section,,"Themes"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\FallingL,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\FallingL,Section,,"Themes.FallingL
+
+HKLM,%KEY_PLUS98%\Setup\Themes\SciFi,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\SciFi,Section,,"Themes.SciFi"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Architec,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Architec,Section,,"Themes.Architec"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Corbis,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Corbis,Section,,"Themes.Corbis"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Fashion,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Fashion,Section,,"Themes.Fashion"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Jazz,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Jazz,Section,,"Themes.Jazz"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Win98,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Win98,Section,,"Themes.Win98"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\WoTravel,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\WoTravel,Section,,"Themes.WoTravel"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Garfield,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Garfield,Section,,"Themes.Garfield"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Cathy,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Cathy,Section,,"Themes.Cathy"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Foxtrot,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Foxtrot,Section,,"Themes.Foxtrot"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Horror,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Horror,Section,,"Themes.Horror"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\DoonBury,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\DoonBury,Section,,"Themes.DoonBury"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Peanuts,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Peanuts,Section,,"Themes.Peanuts"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\RockRoll,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\RockRoll,Section,,"Themes.RockRoll"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Geometry,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Geometry,Section,,"Themes.Geometry"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\PhoDisc,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\PhoDisc,Section,,"Themes.PhoDisc"
+
+HKLM,%KEY_PLUS98%\Setup\Themes\Cityscap,INF,,"Pls98Thm.inf"
+HKLM,%KEY_PLUS98%\Setup\Themes\Cityscap,Section,,"Themes.Cityscap"
+
+HKLM,%KEY_PLUS98%\Setup\Tuneup,INF,,"Plus98.inf"
+HKLM,%KEY_PLUS98%\Setup\Tuneup,Section,,"Tuneup"
+
+HKLM,%KEY_PLUS98%\Setup\Cleanup,INF,,"Plus98.inf"
+HKLM,%KEY_PLUS98%\Setup\Cleanup,Section,,"Cleanup"
+
+HKLM,%KEY_PLUS98%\Setup\PIE,INF,,"Pls98App.inf"
+HKLM,%KEY_PLUS98%\Setup\PIE,Section,,"PIE"
+
+HKLM,%KEY_PLUS98%\Setup\Games,INF,,"Pls98Gam.inf"
+HKLM,%KEY_PLUS98%\Setup\Games,Section,,"Spider"
+
+HKLM,%KEY_PLUS98%\Setup\LYM,INF,,"Pls98Gam.inf"
+HKLM,%KEY_PLUS98%\Setup\LYM,Section,,"LYM"
+
+HKLM,%KEY_PLUS98%\Setup\Viruscan,INF,,"Pls98App.inf"
+HKLM,%KEY_PLUS98%\Setup\Viruscan,Section,,"VS"
+
+HKLM,%KEY_PLUS98%\Setup\Golf,INF,,"Pls98Gam.inf"
+HKLM,%KEY_PLUS98%\Setup\Golf,Section,,"Golf"
+
+HKLM,%KEY_PLUS98%\Setup\OA,INF,,"Pls98App.inf"
+HKLM,%KEY_PLUS98%\Setup\OA,Section,,"OA"
+
+
+[BaseInstall]
+OptionDesc  = %BASE_DESC%
+Tip         = %BASE_TIP%
+RenFiles    = Plus.Ren.Boot, Plus.Ren.Win
+CopyFiles   = Plus.Files.Setup, Plus.Files.Inf, Plus.Files.Hlp, Plus.Files.Boot, Plus.Files.Win, RegSvr.Files
+AddReg      = Plus.Reg, Plus.Reg.Add, Components.Reg
+Uninstall   = BaseUninstall
+
+[BaseUninstall]
+DelFiles    = Plus.Files.Setup, Plus.Files.Inf, Plus.Files.Hlp, Plus.Files.Boot, Plus.Files.Win
+AddReg      = Plus.Reg.Restore
+DelReg      = Plus.Reg.Del, Plus.Reg
+
+
+[Plus.Reg.Add]
+HKLM,%KEY_PLUS98%\Setup,Installed,,"1"
+HKLM,"%KEY_WINDOWS%\Internet Settings\ActiveX Cache","CleanLog",65539,01,00,00,00  ; Only creates if it doesn't exist.
+
+HKLM,"%KEY_RENAME%\HOSTROOT",,,          "%32799%"
+HKLM,"%KEY_RENAME%\HOSTROOT",LOGO.SYS,,  "LOGO.SYS,2"
+
+[Plus.Reg]
+HKLM,"%KEY_UNINST%"
+HKLM,"%KEY_UNINST%",DisplayName,,"%PLUS_NAME%"
+HKLM,"%KEY_UNINST%",UninstallString,,"%42876%\%SETUP_DIR%\setup.exe /M"
+HKLM,"%KEY_PLUS98%",SetupExe,,"%42876%\%SETUP_DIR%\setup.exe"
+
+[Plus.Reg.Del]
+HKLM,"%KEY_PLUS98%"
+HKLM,"%KEY_OA%"
+HKCU,"%KEY_OA%"
+
+[Plus.Reg.Restore]
+HKLM,"%KEY_RENAME%\HOSTROOT",,,          "%32799%"
+HKLM,"%KEY_RENAME%\HOSTROOT",logo.W98,,  "LOGO.SYS"
+
+HKLM,"%KEY_RENAME%\WINDOWS",,,           "%10%"
+HKLM,"%KEY_RENAME%\WINDOWS",logow.W98,,  "LOGOW.SYS"
+
+[Plus.Files.Setup]
+setup.exe,,,1
+license.txt
+
+[Plus.Files.Inf]
+Plus98.inf
+Pls98Gam.inf
+Pls98Thm.inf
+Pls98App.inf
+LayoutP.inf
+
+[Plus.Files.Hlp]
+Plus!98.chm
+
+[Plus.Files.Boot]
+logo.sys
+
+[Plus.Files.Win]
+logow.sys
+
+[Plus.Ren.Boot]
+logo.W98,logo.sys
+
+[Plus.Ren.Win]
+logow.W98,logow.sys
+
+[RegSvr.Files]
+regsvr32.exe
+
+
+[WebCD]
+OptionDesc     = %WEBCD_DESC%
+Tip            = %WEBCD_TIP%
+RegisterOCXs   = WebCD.Register, ODBC.Register
+CopyFiles      = WebCD.Files, WebCD.Files.Help, WebCD.Files.Sys, ODBC.Files.Sys, ODBC.Files.Help, ODBC.Files.OleDB
+AddReg         = WebCD.Reg.Add
+UpdateInis     = WebCD.Links.Add
+Uninstall      = WebCD.Remove
+
+[WebCD.Remove]
+UnregisterOCXs = WebCD.Register
+DelFiles       = WebCD.Files, WebCD.Files.Help
+DelReg         = WebCD.Reg.Del
+UpdateInis     = WebCD.Links.Remove
+
+
+[WebCD.Register]
+%42876%\%WEBCD_DIR%\cdnet.dll
+%42876%\%WEBCD_DIR%\cdplay.dll
+%42876%\%WEBCD_DIR%\cdopt.dll
+
+[WebCD.Files]
+cdnet.dll
+cdplay.dll
+cdopt.dll
+deluxecd.exe
+n2k.bmp
+tunes.bmp
+
+[WebCD.Files.Help]
+Deluxcd.hlp
+Deluxcd.chm
+
+[WebCD.Files.Sys]
+msvcrt.dll,,,16
+
+[ODBC.Register]
+%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\MSDADC.DLL
+%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\MSDAENUM.DLL
+%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\MSDAER.DLL
+%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\MSDASQL.DLL
+%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\MSDATT.DLL
+%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\MSJET35.DLL
+
+[ODBC.Files.Sys]
+ds16gt.dll,,,32
+ds32gt.dll,,,32
+mtxdm.dll,,,32
+odbc16gt.dll,,,32
+odbc32.dll,,,32
+odbc32gt.dll,,,32
+odbcad32.exe,,,32
+odbccp32.cpl,,,32
+odbccp32.dll,,,32
+odbccr32.dll,,,32
+odbccu32.dll,,,32
+odbcint.dll,,,32
+odbctrac.dll,,,32
+msexch35.dll,,,32
+msexcl35.dll,,,32
+msjet35.dll,,,32
+msjint35.dll,,,32
+msjter35.dll,,,32
+msltus35.dll,,,32
+mspdox35.dll,,,32
+msrd2x35.dll,,,32
+msrepl35.dll,,,32
+mstext35.dll,,,32
+msxbse35.dll,,,32
+vbajet32.dll,,,32
+vbar332.dll,,,32
+odbcji32.dll,,,32
+odbcjt32.dll,,,32
+odbctl32.dll,,,32
+
+[ODBC.Files.Help]
+odbcinst.hlp,,,16
+odbcinst.cnt,,,16
+odbcjet.hlp,,,16
+odbcjet.cnt,,,16
+
+[ODBC.Files.OleDB]
+msdadc.dll,,,32
+msdaenum.dll,,,32
+msdaer.dll,,,32
+msdaerr.dll,,,32
+msdaps.dll,,,32
+msdasql.dll,,,32
+msdasqlr.dll,,,32
+msdatl.dll,,,32
+msdatt.dll,,,32
+odbcinst.exe
+odbckey.inf
+
+[WebCD.Reg.Add]
+HKLM,%KEY_PLUS98%\Setup\WebCD,Installed,,"1"
+
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"App Paths"\DELUXECD.EXE,,0,"%42876%\%WEBCD_DIR%\DELUXECD.EXE"
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"App Paths"\DELUXECD.EXE,Path,0,"%42876%\%WEBCD_DIR%"
+
+HKCR,"AudioCD\shell\play\command",,,"%42876%\%WEBCD_DIR%\deluxecd.exe /play %1"
+HKCR,"cdafile\shell\play\command",,,"%42876%\%WEBCD_DIR%\deluxecd.exe /play %1"
+
+HKCU,%KEY_WINDOWS%\Applets\DeluxeCD\Settings,"CurrentProvider",,"%PROV0_URL%"
+
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0000,"ProviderURL" ,,"%PROV0_URL%"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0000,"ProviderName",,"%PROV0_NAME%"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0000,"ProviderHome",,"%PROV0_HOME%"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0000,"ProviderLogo",,"%42876%\%WEBCD_DIR%\tunes.bmp"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0000,"ProviderUpload",,"%PROV0_UPLOAD%"
+
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0001,"ProviderURL" ,,"%PROV1_URL%"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0001,"ProviderName",,"%PROV1_NAME%"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0001,"ProviderHome",,"%PROV1_HOME%"
+HKLM,%KEY_WINDOWS%\Applets\DeluxeCD\Providers\Provider0001,"ProviderLogo",,"%42876%\%WEBCD_DIR%\n2k.bmp"
+
+HKLM,"%KEY_RUNONCE%","OLEDB_InstallAccess",0, "%24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\odbcinst.exe Access %24%\%PROGRAMF%\%COMMON_FILES%\System\%OLE_DB_SFN%\odbckey.inf"
+
+HKLM,%KEY_RENAME%\OLE_DB,,,"%24%\%PROGRAMF%\%COMMON_FILES%\System"
+HKLM,%KEY_RENAME%\OLE_DB,"%OLE_DB_SFN%",,"$!$!$!$!.ole"
+HKLM,%KEY_RENAME%\OLE_DB,"$!$!$!$!.ole",,"%OLE_DB_LFN%"
+
+[WebCD.Reg.Del]
+HKLM,"%KEY_PLUS98%\Setup\WebCD",Installed
+HKLM,"%KEY_WINDOWS%\Run",DeluxeCD
+HKLM,"%KEY_WINDOWS%\Applets\DeluxeCD"
+HKCU,"%KEY_WINDOWS%\Applets\DeluxeCD"
+HKCR,"DeluxeCD"
+
+[WebCD.Links.Add]
+setup.ini, progman.groups,, "Entertainment=%ENTER_DESC%"   ; Create folder.
+setup.ini, Entertainment,, """%WEBCD_DESC%"", ""%42876%\%WEBCD_DIR%\deluxecd.exe"""  ; Creates link.
+setup.ini, Entertainment,, """%OLDCD_LINK%"",,,,"  ; Deletes link.
+setup.ini, progman.groups,, "Plus98=%PLUS98_DESC%"   ; Create folder.
+setup.ini, Plus98,, """%WEBCD_DESC%"", ""%42876%\%WEBCD_DIR%\deluxecd.exe"""  ; Creates link.
+
+[WebCD.Links.Remove]
+setup.ini, progman.groups,, "Entertainment=%ENTER_DESC%"   ; Create folder.
+setup.ini, Entertainment,, """%WEBCD_DESC%"",,,,"  ; Deletes link.
+setup.ini, progman.groups,, "Plus98=%PLUS98_DESC%"  ; Create folder.
+setup.ini, Plus98,, """%WEBCD_DESC%"",,,,"  ; Deletes link.
+
+
+[Tuneup]
+OptionDesc     = %TUNEUP_DESC%
+Tip            = %TUNEUP_TIP%
+RenFiles       = Tuneup.Files.Ren
+CopyFiles      = Tuneup.Files
+AddReg         = Tuneup.Reg
+DelReg         = Tuneup.Reg.Clean
+UpdateInis     = Tuneup.Links.Add
+Uninstall      = Tuneup.Remove
+
+[Tuneup.Remove]
+DelFiles       = Tuneup.Files
+AddReg         = Tuneup.Reg.Restore
+DelReg         = Tuneup.Reg
+UpdateInis     = Tuneup.Links.Remove
+
+
+[Tuneup.Files]
+tuneup.exe
+smtidy.exe
+
+[Tuneup.Files.Ren]
+Tuneup.W98,Tuneup.exe
+
+[Tuneup.Reg]
+HKLM,"%KEY_PLUS98%\Setup\Tuneup",Installed,, "1"
+
+[Tuneup.Reg.Clean]
+HKLM,"%KEY_WINDOWS%\Welcome\TuneUp",@
+
+[Tuneup.Reg.Restore]
+HKLM,"%KEY_RENAME%\WINDOWS",,,             "%10%"
+HKLM,"%KEY_RENAME%\WINDOWS",Tuneup.W98,,   "Tuneup.exe"
+
+HKLM,"%KEY_DELETE%\TASKS",,,               "%10%\%TASKS_DIR%"
+HKLM,"%KEY_DELETE%\TASKS",TS-AV.JOB,,      "%TASK_AV%.JOB"
+HKLM,"%KEY_DELETE%\TASKS",TS-SMTIDY.JOB,,  "%TASK_SMTIDY%.JOB"
+
+[Tuneup.Links.Add]
+setup.ini, progman.groups, , "Plus98=%PLUS98_DESC%"  ; Creates folder.
+setup.ini, Plus98,, """%TUNEUP_DESC%"", ""%10%\Tuneup.exe"""  ; Creates link.
+
+[Tuneup.Links.Remove]
+setup.ini, progman.groups, , "Plus98=%PLUS98_DESC%"  ; Creates folder.
+setup.ini, Plus98,, """%TUNEUP_DESC%"""  ; Deletes link.
+
+
+[Cleanup]
+OptionDesc     = %CLEANUP_DESC%
+Tip            = %CLEANUP_TIP%
+RegisterOCXs   = Cleanup.Register
+CopyFiles      = Cleanup.Files, Cleanup.Files.Hlp
+AddReg         = Cleanup.Reg
+UpdateInis     = Cleanup.Links.Add
+Uninstall      = Cleanup.Remove
+
+[Cleanup.Remove]
+UnregisterOCXs = Cleanup.Register
+DelFiles       = Cleanup.Files, Cleanup.Files.Hlp
+DelReg         = Cleanup.Reg
+UpdateInis     = Cleanup.Links.Remove
+
+
+[Cleanup.Register]
+%42876%\%CLEANUP_DIR%\noncrit.dll
+
+[Cleanup.Files]
+Fclnres.dll
+Filecln.exe
+Noncrit.dll
+Ucomnres.dll
+Uni40.dll
+Unicomn.dll
+noncrit.bmp
+
+[Cleanup.Files.Hlp]
+noncrit.hlp
+noncrit.cnt
+
+[Cleanup.Reg]
+HKLM,"%KEY_PLUS98%\Setup\Cleanup",Installed,,"1"
+
+[Cleanup.Links.Add]
+setup.ini, progman.groups, , "Plus98=%PLUS98_DESC%"  ; Creates folder.
+setup.ini, Plus98,, """%CLEANUP_LINK%"", ""%10%\CleanMgr.exe"""  ; Creates link.
+
+[Cleanup.Links.Remove]
+setup.ini, progman.groups, , "Plus98=%PLUS98_DESC%"  ; Creates folder.
+setup.ini, Plus98,, """%CLEANUP_LINK%"""  ; Deletes link.
+
+
+[ZipFldr]
+OptionDesc     = %ZIPFLDR_DESC%
+Tip            = %ZIPFLDR_TIP%
+RegisterOCXs   = ZipFldr.Register
+CopyFiles      = ZipFldr.Files.Sys, ZipFldr.Files.Hlp
+AddReg         = ZipFldr.Reg.Add
+Uninstall      = ZipFldr.Remove
+
+[ZipFldr.Remove]
+UnregisterOCXs = ZipFldr.Register
+DelFiles       = ZipFldr.Files.Sys, ZipFldr.Files.Hlp
+DelReg         = ZipFldr.Reg.Del
+
+
+[ZipFldr.Register]
+%11%\zipfldr.dll
+
+[ZipFldr.Files.Sys]
+zipfldr.dll
+dzip32.dll
+dunzip32.dll
+
+[ZipFldr.Reg.Add]
+HKLM,"%KEY_PLUS98%\Setup\ZipFldr",Installed,,"1"
+
+[ZipFldr.Reg.Del]
+HKLM,"%KEY_PLUS98%\Setup\ZipFldr",Installed,,"0"
+
+
+[Strings]
+;Non-Localizable strings:
+KEY_PLUS98      = "SOFTWARE\Microsoft\Plus!98"
+KEY_WINDOWS     = "SOFTWARE\Microsoft\Windows\CurrentVersion"
+KEY_RUNONCE     = "SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"
+KEY_RENAME      = "SOFTWARE\Microsoft\Windows\CurrentVersion\RenameFiles"
+KEY_DELETE      = "SOFTWARE\Microsoft\Windows\CurrentVersion\DeleteFiles"
+KEY_UNINST      = "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Plus98"
+
+;Localizable strings:
+ENTER_DESC      = "Accessories\Entertainment"      ; Program group for links.
+PLUS98_DESC     = "Microsoft Plus! 98"             ; Program group for links.
+
+CLEANUP_LINK    = "Disk Cleanup"
+OLDCD_LINK      = "CD Player"
+
+PLUS_NAME       = "Microsoft Plus! 98"  ; Name in add/remove programs.
+
+PROV0_URL       = "http://www.tunes.com/tunes-cgi2/tunes/disc_info/203/"
+PROV0_NAME      = "Tunes.com"
+PROV0_HOME      = "http://www.tunes.com/tunes-cgi2/tunes/home_page_aff/1/203"
+PROV0_UPLOAD    = "http://www.tunes.com/tunes-cgi2/tunes/put_disc_info/203/"
+
+PROV1_URL       = "http://mscd.musicblvd.com/cgi-bin/twcd/0_1100_"
+PROV1_NAME      = "Music Boulevard"
+PROV1_HOME      = "http://www.musicblvd.com/mscd"
+
+PROGRAMF        = "Progra~1"
+COMMON_FILES    = "Common~1"
+OLE_DB_SFN      = "OLEDB~1"
+OLE_DB_LFN      = "OLE DB"
+
+TASK_AV         = "Maintenance-Anti Virus"
+TASK_SMTIDY     = "Maintenance-Clean up Start Menu"
+
+TASKS_DIR       = "Tasks"       ; Windows\Tasks
+
+SETUP_DIR       = "Setup!98"    ; Program Files\Plus!\Setup!98
+WEBCD_DIR       = "DeluxeCD"    ; Program Files\Plus!\DeluxeCD
+CLEANUP_DIR     = "CleanUp"     ; Program Files\Plus!\CleanUp
+
+BASE_DESC       = "Microsoft Plus! 98"
+BASE_TIP        = "Works even better, plays even better."
+WEBCD_DESC      = "Deluxe CD Player"
+WEBCD_TIP       = "Plays audio CDs and retrieves track information from the Internet."
+TUNEUP_DESC     = "Maintenance Wizard"
+TUNEUP_TIP      = "Contains additional scheduled tasks, such as cleaning up your Start menu and performing regular virus scans."
+ZIPFLDR_DESC    = "Compressed Folders"
+ZIPFLDR_TIP     = "Integrates the ability to view and create ZIP files with Windows 98 Explorer."
+CLEANUP_DESC    = "Disk Cleanup Add-ons"
+CLEANUP_TIP     = "Adds new disk space recovery options and uninstall features."
