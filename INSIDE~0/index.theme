@@ -1,6 +1,8 @@
 [Icon Theme]
 Name=Inside your Computer (256 color)
+Name[fr]=À l’intérieur de votre ordinateur
 Name[es]=Dentro de su PC
+Name[de]=In Ihrem Computer
 Name[ja]=コンピュータ内
 Name[zh]=计算机内部
 Inherits=Windows 98, Windows 98 (16 bits)
