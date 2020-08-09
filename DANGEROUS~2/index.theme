@@ -1,5 +1,10 @@
 [Sound Theme]
-Name=Dangerous Creatures (Windows 98 Plus)
+Name=Dangerous Creatures (256 Color)
+Name[es]=Animales peligrosos (256 colores)
+Name[ja]=危険動物 (256色)
+Name[fr]=Créatures dangereuses (256 couleurs)
+Name[de]=Gefährliche Kreaturen (256 Farbe)
+Name[zh]=危險生物 (256 顏色)
 Directories=stereo
 
 [stereo]
