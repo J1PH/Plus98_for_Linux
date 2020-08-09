@@ -1,5 +1,10 @@
 [Icon Theme]
-Name=Jungle (Windows 98 Plus)
+Name=Jungle (256 color)
+Name[es]=Jungla (256 colores)
+Name[ja]=ジャングル(256色)
+Name[fr]=Jungle (256 couleurs)
+Name[de]=Dschungel (256 Farbe)
+Name[zh]=叢林 (256 色)
 Inherits=Windows 98, Windows 98 (16 bits)
 Comment=Microsoft Plus98! for Linux
 
