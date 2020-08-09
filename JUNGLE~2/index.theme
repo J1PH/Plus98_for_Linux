@@ -1,5 +1,10 @@
 [Sound Theme]
-Name=Jungle (Windows 98 Plus)
+Name=Jungle (256 color)
+Name[es]=Jungla (256 colores)
+Name[ja]=ジャングル(256色)
+Name[fr]=Jungle (256 couleurs)
+Name[de]=Dschungel (256 Farbe)
+Name[zh]=叢林 (256 色)
 Directories=stereo
 
 [stereo]
