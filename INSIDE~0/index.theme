@@ -1,6 +1,8 @@
 [Icon Theme]
-Name=Inside your Computer (Windows 98 Plus)
+Name=Inside your Computer (256 color)
 Name[es]=Dentro de su PC
+Name[ja]=コンピュータ内
+Name[zh]=计算机内部
 Inherits=Windows 98, Windows 98 (16 bits)
 Comment=Microsoft Plus98! for Linux
 
