@@ -2,7 +2,11 @@
 Type=X-GNOME-Metatheme
 Name=Dangerous Creatures (256 Color)
 Name[es]=Animales peligrosos (256 colores)
-Name[ja]=危険動物
+Name[ja]=危険動物 (256色)
+Name[fr]=Créatures dangereuses (256 couleurs)
+Name[de]=Gefährliche Kreaturen (256 Farbe)
+Name[zh]=危險生物 (256 顏色)
+
 Comment=Microsoft Windows 98 (Plus)
 Version=v1.0
 Encoding=UTF-8
