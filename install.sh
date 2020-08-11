@@ -4,10 +4,6 @@ lsb_release -i
 echo "Searching Windows 98 Iconpack"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
-echo "Key Plus98 ID: 465-9812636"
-echo "Key Windows 98 ID: XB88B-9B96V-CRJPG-64882-GQBDD"
-sleep 5s
-echo ""
 echo "Copyring Files: $1"
 cp -r -v DANGEROUS~0 /usr/share/icons/
 cp -r -v INSIDE~0 /usr/share/icons/
@@ -96,8 +92,7 @@ cp -r -v ROCK~2 /usr/share/sounds/
 cp -r -v SCI~2 /usr/share/sounds/
 cp -r -v WOTR~2 /usr/share/sounds/
 cp -r -v GARFIE~2 /usr/share/sounds/
-mkdir /usr/share/fonts/Plus98!
-cp -r Plus98-Fonts /usr/share/fonts/
+
 
 
 echo "Updating Components"
@@ -146,6 +141,7 @@ mv /usr/share/sounds/UNDERW~2 /usr/share/sounds/Underwater
 mv /usr/share/sounds/THEGOLDE~2 /usr/share/sounds/"The Golden Era"
 mv /usr/share/sounds/TRAV~2 /usr/share/sounds/Travel
 mv /usr/share/sounds/THE60~2 /usr/share/sounds/"The 60's USA"
+mv /usr/share/sounds/CATHY~0 /usr/share/icons/Cathy
 
 
 echo "Finishing Installing"

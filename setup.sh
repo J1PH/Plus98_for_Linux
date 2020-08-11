@@ -21,10 +21,6 @@ echo
     echo "4) Exit"
     echo
     echo -n "Select an option: "
-    echo
-    echo
-    echo
-    echo Copyright 1998 - 2020   
 }
  
 _mostrarResultado()
