@@ -1,4 +1,7 @@
 #!/bin/sh
+echo "Loading Library..."
+echo "user.dll    [OK]"
+echo "shell32.dll  [OK]
 echo "Detecting System..."
 lsb_release -i
 echo "Searching Windows 98 Iconpack"
@@ -143,6 +146,9 @@ mv /usr/share/sounds/TRAV~2 /usr/share/sounds/Travel
 mv /usr/share/sounds/THE60~2 /usr/share/sounds/"The 60's USA"
 mv /usr/share/sounds/CATHY~0 /usr/share/icons/Cathy
 
-
 echo "Finishing Installing"
-cinnamon-settings
+echo "Save Configuration"
+sleep 4s
+echo "Remove files Temporary"
+sleep 3s
+
