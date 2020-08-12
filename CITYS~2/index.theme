@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=Cityscap
+Name[es]=Ciudad Urbana
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
