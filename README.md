@@ -1,4 +1,4 @@
-# Beta 7.5
+# Beta 8.9
 # Microsoft Plus98! for Linux
 # Cinammon, xfce, gnome
 Microsoft Plus98 adaptado para distro Linux
