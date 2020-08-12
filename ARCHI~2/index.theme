@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=Architect
+Name[es]=Arquitectura
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
