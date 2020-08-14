@@ -1,0 +1,8 @@
+[Sound Theme]
+Name=Underwater (256 color)
+Name[es]=Mundo Submarino (256 colores)
+Name[ja]=危険動物 (256 色)
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
