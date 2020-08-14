@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Underwater (high Color)
+Name[es]=Mundo Submarino (Alta Densidad)
+Name[ja]=危険動物 (256 色)
+Comment=Microsoft Plus98! for Linux
+Version=v9.8
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Windows 95
+MetacityTheme=Windows 95
+ButtonLayout=:minimize,maximize,close
