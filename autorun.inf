@@ -1,3 +1,3 @@
 [autorun]
-OPEN=install.sh
+OPEN=setup.sh
 ICON=plus98.ICO
