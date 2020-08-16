@@ -1,0 +1,15 @@
+########################################################################
+# Statusbar
+########################################################################
+
+style "statusbar" {
+
+$bg[NORMAL] = "#1C76CF"
+#fg[NORMAL] = "#1C76CF"
+
+#GtkStatusBar::shadow-type = GTK_SHADOW_NONE
+
+}
+
+widget_class "*<GtkStatusbar>*" style "statusbar"
+
