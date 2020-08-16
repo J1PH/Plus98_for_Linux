@@ -1,4 +1,4 @@
-# Prelease 9.2
+# Prelease 9.4
 # Microsoft Plus98! for Linux
 # Cinammon, xfce, gnome
 Microsoft Plus98 adaptado para distro Linux
