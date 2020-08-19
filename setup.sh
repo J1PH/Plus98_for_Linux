@@ -1,4 +1,5 @@
 #!/bin/sh
+paplay ./Setup.wav
 _menu()
 {
 echo Microsoft Plus98! Setup by leviatan_san
