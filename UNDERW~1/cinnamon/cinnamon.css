@@ -1909,7 +1909,8 @@ padding-bottom: 10px;
 }
 
 .applet-label {
-    font-weight: bold;
+    color:#000000
+    font-weight: normal;
 }
 
 .applet-label:hover,
