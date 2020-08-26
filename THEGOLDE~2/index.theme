@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=The Golden era
+Name[es]=La nueva era
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo

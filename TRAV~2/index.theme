@@ -1,0 +1,6 @@
+[Sound Theme]
+Name=Travel
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
