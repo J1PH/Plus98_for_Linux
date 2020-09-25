@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="computer-symbolic.svg"
+   viewBox="0 0 16 16"
+   height="16"
+   width="16"
+   id="svg90"
+   version="1.1">
+  <metadata
+     id="metadata96">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs94" />
+  <sodipodi:namedview
+     inkscape:current-layer="g98"
+     inkscape:window-maximized="0"
+     inkscape:window-y="28"
+     inkscape:window-x="53"
+     inkscape:cy="8"
+     inkscape:cx="8"
+     inkscape:zoom="42.3125"
+     showgrid="false"
+     id="namedview92"
+     inkscape:window-height="480"
+     inkscape:window-width="808"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     id="g98"
+     inkscape:label="Image"
+     inkscape:groupmode="layer">
+    <image
+       id="image100"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX///8AAAAAgACAgAAAAICA
+AIAAgIDAwMCAgID/AAAA/wD//wAAAP//AP8A//////8v5YYIAAAAAXRSTlMAQObYZgAAAFRJREFU
+eNpjYAABjo4GMNnRKCgBZDQKCgrulgDyBWfOBDEaBSVnzpwIlGoEUkAmSGSieKEkiDFzYv13CEP8
+//9CVAZcCq4Yrh0MgFZAGEDbO8CAAQDNiyv9Us13TgAAAABJRU5ErkJggg==
+"
+       preserveAspectRatio="none"
+       height="16"
+       width="16" />
+  </g>
+</svg>
