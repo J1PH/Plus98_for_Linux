@@ -48,3 +48,5 @@ rm  /usr/share/sounds/"Underwater (high color)"
 rm  /usr/share/sounds/"The Golden Era (high color)"
 rm  /usr/share/sounds/"Travel (high color)"
 rm  /usr/share/sounds/"The 60's USA (256 color)"
+rm  /usr/share/gnome-background-properties/plus98.xml
+rm  /usr/share/backgrounds/PLUS98-BACKGROUNDS
