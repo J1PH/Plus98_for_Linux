@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=Corbis Photography (high color)
+Name[es]=Corbis Fotografia (alta densidad)
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
