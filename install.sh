@@ -96,6 +96,7 @@ cp -r -v ROCK~2 /usr/share/sounds/
 cp -r -v SCI~2 /usr/share/sounds/
 cp -r -v WOTR~2 /usr/share/sounds/
 cp -r -v GARFIE~2 /usr/share/sounds/
+cp -r -v PLUS98-BACKGROUNDS /usr/share/backgrounds
 
 sleep 2s
 
@@ -181,6 +182,7 @@ mv /usr/share/sounds/GEOME~2 /usr/share/sounds/"Geometry (high color)"
 mv /usr/share/sounds/JAZ~2 //usr/share/sounds/Jazz
 mv /usr/share/sounds/PEANU~2 /usr/share/sounds/Peanuts
 mv /usr/share/sounds/GARFIE~2 /usr/share/sounds/Garfield
+cp -r -v plus98.xml /usr/share/background-properties
 
 echo "Deleting temporary files"
 sleep 3s
