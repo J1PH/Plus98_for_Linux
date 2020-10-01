@@ -1,7 +1,7 @@
-# Prelease 9.6
+# Prelease 9.7
 # Microsoft Plus98! for Linux
 # Cinammon, xfce, gnome
-https://github.com/Leviatansan21/Microsoft-Plus-98-for-Linux/blob/master/UNDERW~1/cinnamon/thumbnail.png
+<\img>https://github.com/Leviatansan21/Microsoft-Plus-98-for-Linux/blob/master/UNDERW~1/cinnamon/thumbnail.png
 Microsoft Plus98 adaptado para distro Linux
 Incie el instalador como root
 chmod -x setup.sh
