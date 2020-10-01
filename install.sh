@@ -96,7 +96,7 @@ cp -r -v ROCK~2 /usr/share/sounds/
 cp -r -v SCI~2 /usr/share/sounds/
 cp -r -v WOTR~2 /usr/share/sounds/
 cp -r -v GARFIE~2 /usr/share/sounds/
-cp -r -v PLUS98-BACKGROUNDS /usr/share/backgrounds
+cp -r -v Plus98 /usr/share/backgrounds
 
 sleep 2s
 
