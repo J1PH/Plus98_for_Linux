@@ -2,15 +2,18 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
 <wallpaper>
-<name>/usr/share/backgrounds/Plus98/ar_wallp.jpg</name>
-<filename>/usr/share/backgrounds/Plus98/ar_wallp.jpg</filename>
+<name>Architec</name>
+<name xml:lang="es">Arquitectura</name>
+<filename>/usr/share/backgrounds/Plu98/ar_wallp.jpg</filename>
   <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
 </wallpaper>
 <wallpaper>
-<name>/usr/share/backgrounds/Plus98/Baseball.jpg</name>
+<name>Baseball</name>
+<name xml:lang="es">baseball</name>
+<name xml:lang="jp">野球</name>
 <filename>/usr/share/backgrounds/Plus98/Baseball.jpg</filename>
   <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -18,232 +21,279 @@
     <shade_type>solid</shade_type>
 </wallpaper>
 <wallpaper>
-<name>/usr/share/backgrounds/Plus98/cy_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/CATHY/cy_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/CORBIS/CP_scn01.JPG</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/CORBIS/CP_scn01.JPG</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/DANGEROUS CREATURES/Dangerous Creatures wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/DANGEROUS CREATURES/Dangerous Creatures wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/DOONMIKE/doonmike.gif</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/DOONMIKE/doonmike.gif</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/FALLINGL/fl_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/FALLINGL/fl_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/FOXTROT/fo_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/FOXTROT/fo_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/GARFIELD/back1024.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/GARFIELD/back1024.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/GEOMETRY/Ge_wallp.jpg</name>
-<filename>/usr/share/backgroundsPLUS98-BACKGROUNDS/GEOMETRY/Ge_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/HORROR/hc_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/HORROR/hc_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/INSIDE YOUR COMPUTER/Inside your Computer wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/INSIDE YOUR COMPUTER/Inside your Computer wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/JAZZ/ja_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/JAZZ/ja_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/JUNGLE/Jungle wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/JUNGLE/Jungle wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/LEONARDO DA VINCI/Leonardo da Vinci wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/LEONARDO DA VINCI/Leonardo da Vinci wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/MORE WINDOWS/More Windows wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/MORE WINDOWS/More Windows wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/MYSTERY/Mystery wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/MYSTERY/Mystery wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/NATURE/Nature wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/NATURE/Nature wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/PEANUTS/PE_wallp.bmp</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/PEANUTS/PE_wallp.bmp</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/PHOTODISC/wallpapr.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/PHOTODISC/wallpapr.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/ROCK AND ROLL/Ro_wallp.JPG</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/ROCK AND ROLL/Ro_wallp.JPG</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SCI-FI/sf_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SCI-FI/sf_wallp.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SCIENCIE/Science wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SCIENCIE/Science wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SPACE/Space wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SPACE/Space wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SPORTS/Sports wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/SPORTS/Sports wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/THE 60's USA/The 60's USA wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/THE 60's USA/The 60's USA wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/THE GOLDEN ERA/The Golden Era wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/THE GOLDEN ERA/The Golden Era wallpaper.jpg</filename>
-  <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-</wallpaper>
-<wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/TRAVEL/Travel wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/TRAVEL/Travel wallpaper.jpg</filename>
+<name>Cathy</name>
+<filename>/usr/share/backgrounds/Plus98/cy_wallp.jpg</filename>
   <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
     </wallpaper>
 <wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/UNDERWATER/Underwater wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/UNDERWATER/Underwater wallpaper.jpg</filename>
+<name>Cityscape</name>
+<name xml:lang="es">Ciudad Urbana</name>
+<filename>/usr/share/backgrounds/Plus98/Cs_wallp.JPG</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Corbis Photography</name>
+<filename>/usr/share/backgrounds/Plus98/CP_scn01.JPG</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Dangerous Creatures</name>
+<name xml:lang="es">Criaturas Peligrosas</name>
+<name xml:lang="jp">危険動物</name>
+<filename>/usr/share/backgrounds/Plus98/Dangerous Creatures wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Doonmike</name>
+<filename>/usr/share/backgrounds/Plus98/doonmike.gif</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>FallingL</name>
+<name xml:lang="es">Otoño</name>
+<filename>/usr/share/backgrounds/Plus98/fl_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Foxtrot</name>
+<filename>/usr/share/backgrounds/Plus98/fo_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Garfield</name>
+<filename>/usr/share/backgrounds/Plus98/back1024.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Geometry</name>
+<name xml:lang="es">Geometria</name>
+<filename>/usr/share/backgroundsPlus98/Ge_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Horror</name>
+<filename>/usr/share/backgrounds/Plus98/hc_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Inside your Computer</name>
+<name xml:lang="es">Dentro de la PC</name>
+<name xml:lang= "jp" >コンピュータの内側</name>
+<filename>/usr/share/backgrounds/Plus98/Inside your Computer wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Jazz</name>
+<filename>/usr/share/backgrounds/Plus98/ja_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Jungle</name>
+<name xml:lang= "es" >Jungla</name>
+<name xml:lang= "jp" >ジャングル</name>
+<filename>/usr/share/backgrounds/Plus98/Jungle wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Leonardo da Vinci</name>
+<name xml:lang= "jp" >レオナルド ダ ビンチ</name>
+<filename>/usr/share/backgrounds/Plus98/Leonardo da Vinci wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>More Windows</name>
+<name xml:lang= "es" >Màs Windows</name>
+<name xml:lang= "jp" >モア Windows</name>
+<filename>/usr/share/backgrounds/Plus98/More Windows wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Mystery</name>
+<name xml:lang="es">Misterio</name>
+<name xml:lang= "jp">ミステリー</name>
+<filename>/usr/share/backgrounds/Plus98/Mystery wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Nature</name>
+<name xml:lang="es">Naturaleza</name>
+<name xml:lang="jp">自然</name>
+<filename>/usr/share/backgrounds/Plus98/Nature wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Peanuts</name>
+<filename>/usr/share/backgrounds/Plus98/PE_wallp.bmp</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>PhotoDisc</name>
+<filename>/usr/share/backgrounds/Plus98/wallpapr.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>RockRoll</name>
+<filename>/usr/share/backgrounds/Plus98/Ro_wallp.JPG</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>SciFi</name>
+<filename>/usr/share/backgrounds/Plus98/sf_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Science</name>
+<name xml:lang="es">Ciencia</name>
+<name xml:lang="jp">サイエンス</name>
+<filename>/usr/share/backgrounds/Plus98/Science wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Space</name>
+<name xml:lang="es">Espacio</name>
+<name xml:lang="jp">宇宙</name>
+<filename>/usr/share/backgrounds/Plus98/Space wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Sports</name>
+<name xml:lang="es">Deportes</name>
+<name xml:lang="jp">スポーツ</name>
+<filename>/usr/share/backgrounds/Plus98/Sports wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>The 60's USA</name>
+<name xml:lang="es">Estados Unidos en los 60's</name>
+<name xml:lang="jp">60 年代アメリカ</name>
+<filename>/usr/share/backgrounds/Plus98/The 60's USA wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>The Golden Era</name>
+<name xml:lang="es">La Era de Oro</name>
+<name xml:lang="jp">黄金時代</name>
+<filename>/usr/share/backgrounds/Plus98/The Golden Era wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+</wallpaper>
+<wallpaper>
+<name>Travel</name>
+<name xml:lang="es">Viaje</name>
+<filename>/usr/share/backgrounds/Plus98/Travel wallpaper.jpg</filename>
   <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
     </wallpaper>
 <wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/WINDOWS 98/Windows 98 wallpaper.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/WINDOWS 98/Windows 98 wallpaper.jpg</filename>
+<name>Underwater</name>
+<name xml:lang="es">Mundo Submarino</name>
+<name xml:lang="jp">海底</name>
+<filename>/usr/share/backgrounds/Plus98/Underwater wallpaper.jpg</filename>
   <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
     </wallpaper>
 <wallpaper>
-<name>/usr/share/backgrounds/PLUS98-BACKGROUNDS/WOTRAVEL/wo_wallp.jpg</name>
-<filename>/usr/share/backgrounds/PLUS98-BACKGROUNDS/WOTRAVEL/wo_wallp.jpg</filename>
+<name>Windows 98</name>
+<filename>/usr/share/backgrounds/Plus98/Windows 98 wallpaper.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+    </wallpaper>
+<wallpaper>
+<name>Wotravel</name>
+<name xml:lang="es">Viajero del Mundo</name>
+<filename>/usr/share/backgrounds/Plus98/wo_wallp.jpg</filename>
+  <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+    </wallpaper>
+<wallpaper>
+<name>Fashion</name>
+<name xml:lang="es">Moda</name>
+<filename>/usr/share/backgrounds/Plus98/fa_wallp.jpg</filename>
   <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
