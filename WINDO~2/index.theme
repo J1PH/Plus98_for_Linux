@@ -1,0 +1,9 @@
+[Sound Theme]
+Name=Windows 98 (high color)
+Name[es]=Windows 98 (Alta densidad)
+Name[jp]=Windows 98
+Directories=stereo
+Inherits=freedesktop,gnome
+
+[stereo]
+OutputProfile=stereo

@@ -1,0 +1,9 @@
+[Sound Theme]
+Name=More Windows (high color)
+Name[es]=Mas Windows (Alta densidad)
+Name[jp]=モア Windows
+Directories=stereo
+Inherits=freedesktop,gnome
+
+[stereo]
+OutputProfile=stereo
