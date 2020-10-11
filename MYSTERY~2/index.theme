@@ -1,0 +1,9 @@
+[Sound Theme]
+Name=Mystery (high color)
+Name[es]=Misterio (Alta densidad)
+Name[jp]=ミステリー
+Directories=stereo
+Inherits=freedesktop
+
+[stereo]
+OutputProfile=stereo
