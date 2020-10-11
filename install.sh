@@ -1,6 +1,10 @@
 #!/bin/sh
 echo "Checking if your system is compatible ..."
 lsb_release -i
+sleep 3s
+echo "[OK]"
+clear
+echo "Starting Setup]"
 sleep 4s
 echo "Checking Valid Product Serial"
 cat ./OEM.inf
@@ -8,12 +12,110 @@ sleep 3s
 echo "Searching for necessary files"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
-echo "Copyring Files: -n"
+echo 
+echo "Copyring Files:"
+mkdir /usr/share/backgrounds/Plus98
+mkdir /usr/share/fonts/Win98
+cp -r -v Plus98/ABALC.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/ARIAL.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/ARIALBD.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/ARIALBI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/ARIALI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/ARIBLK.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/BKANT.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/CALIST.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COMIC.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COMICBD.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COPRGTB.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COPRGTL.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COPRGTL.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COPRGTL.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COUR.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COURBD.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COURBI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/COURI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/GOTHIC.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/GOTHICB.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/GOTHICBI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/GOTHICI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/IMPACT.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/LHANDW.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/LSANSI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/LSANSUNI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/LUCON.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/MATISSE_.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/NWGTHC.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/NWGTHCB.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/NWGTHCI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/OCRAEXT.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/SYMBOL.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TAHOMA.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TAHOMABD.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TEMPSITC.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TIMES.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TIMESBD.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TIMESBI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/TIMESI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/VERDANA.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/VERDANAB.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/VERDANAI.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/VERDANAZ.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/WESTM.TTF /usr/share/fonts/Win98/
+cp -r -v Plus98/Baseball.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn01.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn02.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn03.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn04.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn05.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn06.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn07.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn08.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn09.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn10.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn11.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn12.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn13.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn14.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn15.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/CP_scn16.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/Cs_wallp.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Dangerous Creatures wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/Ge_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Inside your Computer wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Jungle wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Leonardo da Vinci wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"More Windows wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Mystery wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Nature wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/PE_wallp.bmp /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/Ro_wallp.JPG /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Science wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Space wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Sports wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"The 60's USA wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"The Golden Era wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Travel wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Underwater wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/"Windows 98 wallpaper.jpg" /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/ar_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/back1024.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/cy_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/doonmike.gif /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/fa_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/fl_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/fo_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/hc_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/ja_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/sf_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/wallpapr.jpg /usr/share/backgrounds/Plus98/
+cp -r -v Plus98/wo_wallp.jpg /usr/share/backgrounds/Plus98/
+cp -r -v ./Plus98.xml /usr/share/gnome-background-properties/
 cp -r -v DANGEROUS~0 /usr/share/icons/
 cp -r -v INSIDE~0 /usr/share/icons/
 cp -r -v ARCHI~0 /usr/share/icons/
 cp -r -v CATHY~0 /usr/share/icons/
 cp -r -v DOON~0 /usr/share/icons/
+cp -r -v FASH~0 /usr/share/icons/
 cp -r -v FOXTR~0 /usr/share/icons/
 cp -r -v GEOME~0 /usr/share/icons/
 cp -r -v HORR~0 /usr/share/icons/
@@ -57,6 +159,7 @@ cp -r -v THE60~1 /usr/share/themes/
 cp -r -v ARCHI~1 /usr/share/themes/
 cp -r -v CATHY~1 /usr/share/themes/
 cp -r -v DOON~1 /usr/share/themes/
+cp -r -v FASH~1 /usr/share/themes/
 cp -r -v FOXTR~1 /usr/share/themes/
 cp -r -v GEOME~1 /usr/share/themes/
 cp -r -v HORR~1 /usr/share/themes/
@@ -86,6 +189,7 @@ cp -r -v THE60~2 /usr/share/sounds/
 cp -r -v ARCHI~2 /usr/share/sounds/
 cp -r -v CATHY~2 /usr/share/sounds/
 cp -r -v DOON~2 /usr/share/sounds/
+cp -r -v FASH~2 /usr/share/sounds/
 cp -r -v FOXTR~2 /usr/share/sounds/
 cp -r -v GEOME~2 /usr/share/sounds/
 cp -r -v HORR~2 /usr/share/sounds/
@@ -96,7 +200,6 @@ cp -r -v ROCK~2 /usr/share/sounds/
 cp -r -v SCI~2 /usr/share/sounds/
 cp -r -v WOTR~2 /usr/share/sounds/
 cp -r -v GARFIE~2 /usr/share/sounds/
-cp -r -v Plus98 /usr/share/backgrounds
 
 sleep 2s
 
@@ -118,6 +221,7 @@ mv /usr/share/icons/TRAV~0 /usr/share/icons/"Travel (high color)"
 mv /usr/share/icons/THE60~0 /usr/share/icons/"The 60's USA (256 color)"
 mv /usr/share/icons/CATHY~0 /usr/share/icons/Cathy
 mv /usr/share/icons/DOON~0 /usr/share/icons/Doonesbury
+mv /usr/share/icons/FASH~0 /usr/share/icons/Fashion 
 mv /usr/share/icons/FOXTR~0 /usr/share/icons/FoxTrot
 mv /usr/share/icons/CORB~0 /usr/share/icons/"Corbis Photography (high color)"
 mv /usr/share/icons/HORR~0 /usr/share/icons/"Horror Channel (high color)"
@@ -145,6 +249,7 @@ mv /usr/share/themes/TRAV~1 /usr/share/themes/"Travel (high color)"
 mv /usr/share/themes/THE60~1 /usr/share/themes/"The 60's USA (256 color)"
 mv /usr/share/themes/CATHY~1 /usr/share/themes/Cathy
 mv /usr/share/themes/DOON~1 /usr/share/themes/Doonesbury
+mv /usr/share/themes/FASH~1 /usr/share/themes/Fashion
 mv /usr/share/themes/FOXTR~1 /usr/share/icons/FoxTrot
 mv /usr/share/themes/CORB~1 /usr/share/themes/"Corbis Photography (high color)"
 mv /usr/share/themes/HORR~1 /usr/share/themes/"Horror Channel (high color)"
@@ -182,12 +287,11 @@ mv /usr/share/sounds/GEOME~2 /usr/share/sounds/"Geometry (high color)"
 mv /usr/share/sounds/JAZ~2 //usr/share/sounds/Jazz
 mv /usr/share/sounds/PEANU~2 /usr/share/sounds/Peanuts
 mv /usr/share/sounds/GARFIE~2 /usr/share/sounds/Garfield
-cp -r -v plus98.xml /usr/share/background-properties
 
 echo "Deleting temporary files"
 sleep 3s
 echo "Saved Settings"
 sleep 3s
 echo "Removing Backup"
-sleep 1s
+sleep 2s
 clear

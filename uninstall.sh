@@ -1,8 +1,11 @@
 #!/bin/sh
-echo "Please Wait"
-echo "Deleting Componets"
+echo "Deleting Componets of Windows"
+echo "Please Wait..."
 echo ""
-rm  /usr/share/fonts/Plus98-Fonts
+sleep 5s
+rm  /usr/share/gnome-background-properties/Plus98.xml
+rm  /usr/share/backgrounds/Plus98
+rm  /usr/share/fonts/Win98
 rm  /usr/share/icons/"Dangerous Creatures (256 color)"
 rm  /usr/share/icons/"Inside your Computer (high color)"
 rm  /usr/share/icons/"Jungle (256 color)"
@@ -48,5 +51,44 @@ rm  /usr/share/sounds/"Underwater (high color)"
 rm  /usr/share/sounds/"The Golden Era (high color)"
 rm  /usr/share/sounds/"Travel (high color)"
 rm  /usr/share/sounds/"The 60's USA (256 color)"
-rm  /usr/share/gnome-background-properties/plus98.xml
-rm  /usr/share/backgrounds/PLUS98-BACKGROUNDS
+rm  /usr/share/icons/Cathy
+rm  /usr/share/icons/Doonesbury
+rm  /usr/share/icons/Fashion
+rm  /usr/share/icons/FoxTrot
+rm  /usr/share/icons/"Corbis Photography (high color)"
+rm  /usr/share/icons/"Horror Channel (high color)"
+rm  /usr/share/icons/"PhotoDisc (high color)"
+rm  /usr/share/icons/"Rock-n-Roll (high color)"
+rm  /usr/share/icons/"Sci-Fi (high color)"
+rm  /usr/share/icons/"Geometry (high color)"
+rm  /usr/share/icons/Jazz
+rm  /usr/share/icons/Peanuts
+rm  /usr/share/icons/Garfield
+rm  /usr/share/themes/Cathy
+rm  /usr/share/themes/Doonesbury
+rm  /usr/share/themes/Fashion
+rm  /usr/share/themes/FoxTrot
+rm  /usr/share/themes/"Corbis Photography (high color)"
+rm  /usr/share/themes/"Horror Channel (high color)"
+rm  /usr/share/themes/"PhotoDisc (high color)"
+rm  /usr/share/themes/"Rock-n-Roll (high color)"
+rm  /usr/share/themes/"Sci-Fi (high color)"
+rm  /usr/share/themes/"Geometry (high color)"
+rm  /usr/share/themes/Jazz
+rm  /usr/share/themes/Peanuts
+rm  /usr/share/themes/Garfield
+rm  /usr/share/sounds/Cathy
+rm  /usr/share/sounds/Doonesbury
+rm  /usr/share/sounds/Fashion
+rm  /usr/share/sounds/FoxTrot
+rm  /usr/share/sounds/"Corbis Photography (high color)"
+rm  /usr/share/sounds/"Horror Channel (high color)"
+rm  /usr/share/sounds/"PhotoDisc (high color)"
+rm  /usr/share/sounds/"Rock-n-Roll (high color)"
+rm  /usr/share/sounds/"Sci-Fi (high color)"
+rm  /usr/share/sounds/"Geometry (high color)"
+rm  /usr/share/sounds/Jazz
+rm  /usr/share/sounds/Peanuts
+rm  /usr/share/sounds/Garfield
+echo ""
+echo "Thank You for Use Plus98 of leviatan_san"
