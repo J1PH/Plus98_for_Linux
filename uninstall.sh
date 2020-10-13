@@ -2,7 +2,9 @@
 echo "Deleting Components of Plus98 in linux system "
 echo "Please Wait..."
 echo ""
-sleep 5s
+echo "executing regsvr32.exe"
+echo "Deleting registry keys"
+sleep 6s
 rm  /usr/share/gnome-background-properties/Plus98.xml
 rm  /usr/share/backgrounds/Plus98
 rm  /usr/share/fonts/Win98
@@ -91,4 +93,5 @@ rm  /usr/share/sounds/Jazz
 rm  /usr/share/sounds/Peanuts
 rm  /usr/share/sounds/Garfield
 echo ""
-echo "Thank You for Use Plus98 of leviatan_san"
+echo " Deleting Files Temp"
+echo "Thanks for using plus98 hopefully you like the linux version of leviatan_san"
