@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Deleting Componets of Windows"
+echo "Deleting Components of Plus98 in linux system "
 echo "Please Wait..."
 echo ""
 sleep 5s
