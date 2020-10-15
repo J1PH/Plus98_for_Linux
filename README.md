@@ -1,7 +1,6 @@
-# Beta 9.8
-# Microsoft Plus98! for Linux
+# PreBeta 9.93
+Plus98! for Linux
 # Cinammon, xfce, gnome
-<img src="url https://github.com/Leviatansan21/Microsoft-Plus-98-for-Linux/blob/master/UNDERW~1/cinnamon/thumbnail.png
 Microsoft Plus98 adaptado para distro Linux
 Incie el instalador como root
 chmod -x setup.sh
