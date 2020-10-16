@@ -1,4 +1,4 @@
-# PreBeta 9.93
+# PreBeta 9.97
 Plus98! for Linux
 # Cinammon, xfce, gnome
 Microsoft Plus98 adaptado para distro Linux
