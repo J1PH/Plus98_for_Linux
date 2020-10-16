@@ -1,0 +1,8 @@
+[Sound Theme]
+Name=Nature (high color)
+Name[es]=Naturaleza (Alta densidad)
+Directories=stereo
+Inherits=freedesktop,gnome
+
+[stereo]
+OutputProfile=stereo
