@@ -1,0 +1,8 @@
+[Sound Theme]
+Name=The 60's USA
+Name[es]=Estados Unidos en los 60's
+Directories=stereo
+Inherits=freedesktop
+
+[stereo]
+OutputProfile=stereo
