@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=Fashion
+Name[es]=Moda
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
