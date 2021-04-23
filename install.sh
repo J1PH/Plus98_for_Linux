@@ -295,7 +295,7 @@ mv /usr/share/sounds/GARFIE~2 /usr/share/sounds/Garfield
 echo "Deleting temporary files"
 sleep 3s
 echo "Saved Settings"
-echo "$( ls /usr/shared/themes/Plus98 >> $HOME$/desktop")
+echo "$(ls /usr/shared/themes/Plus98 >> $HOME$/desktop/log_setup_plus98.log")
 sleep 3s
 echo "Removing Backup"
 sleep 2s
