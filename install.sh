@@ -2,7 +2,11 @@
 echo "Checking if your system is compatible ..."
 lsb_release -i
 sleep 3s
+echo "ID User:$(whoami)"
+echo "Version of Kernel:$(uname -r)"
+echo "Type Processor:$(uname -m)
 echo "[OK]"
+sleep 5s
 clear
 echo "Starting Setup]"
 sleep 4s
@@ -291,6 +295,7 @@ mv /usr/share/sounds/GARFIE~2 /usr/share/sounds/Garfield
 echo "Deleting temporary files"
 sleep 3s
 echo "Saved Settings"
+echo "$( ls /usr/shared/themes/Plus98 >> $HOME$/desktop")
 sleep 3s
 echo "Removing Backup"
 sleep 2s
