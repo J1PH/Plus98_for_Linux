@@ -2,16 +2,7 @@
 paplay ./Setup.wav
 _menu()
 {
-echo Microsoft Plus98! Setup by J1PH
-echo =========================================================================
-echo   
-echo Welcome to Setup.
-echo 
-echo This portion of the Setup program prepares J1PH
-echo Plus98! to run your computer.
-echo 
-echo                *To set up plus98! now press 1.
-echo          *To quit Setup without installing Plus98!, press 4.
+cat ./lang/en-us.log
 echo
 echo
     echo "Do you select what you want to do?"
