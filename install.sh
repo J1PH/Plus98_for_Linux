@@ -17,7 +17,7 @@ echo "Searching for necessary files"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
 echo 
-echo "Copyring Files:"
+echo "Copyring Files:$(grep |wc -l)"
 mkdir /usr/share/backgrounds/Plus98
 mkdir /usr/share/fonts/Win98
 cp -r -v Plus98/ABALC.TTF /usr/share/fonts/Win98/
