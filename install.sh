@@ -1,4 +1,5 @@
 #!/bin/sh
+echo " Detected Lenguage Install English"
 echo "Checking if your system is compatible ..."
 lsb_release -i
 sleep 3s
@@ -17,7 +18,7 @@ echo "Searching for necessary files"
 find /usr/share/icons/ -"Windows 98"
 find /usr/share/icons/ -"Windows 98 (16 bits)"
 echo 
-echo "Copyring Files:$(grep |wc -l)"
+echo "Copyring Files:$(grep TTF JPG |wc -l)"
 mkdir /usr/share/backgrounds/Plus98
 mkdir /usr/share/fonts/Win98
 cp -r -v Plus98/ABALC.TTF /usr/share/fonts/Win98/
@@ -216,7 +217,7 @@ mv /usr/share/icons/BASEB~0 /usr/share/icons/"BaseBall (256 color)"
 mv /usr/share/icons/MORE~0 /usr/share/icons/"More Windows (high color)"
 mv /usr/share/icons/LEONA~0 /usr/share/icons/"Leonardo da Vinci (256 color)"
 mv /usr/share/icons/WINDO~0 /usr/share/icons/"Windows 98 (256 color)"
-mv /usr/share/icons/SPOR~0 /usr/share/icons/"Sports (256 color)"
+mv /usr/share/icons/SPOR~0 /share/icons/"Sports (256 color)"
 mv /usr/share/icons/NATU~0 /usr/share/icons/"Nature (high color)"
 mv /usr/share/icons/SCIENC~0 /usr/share/icons/"Science (256 color)"
 mv /usr/share/icons/UNDERW~0 /usr/share/icons/"Underwater (high color)"
@@ -291,7 +292,8 @@ mv /usr/share/sounds/GEOME~2 /usr/share/sounds/"Geometry (high color)"
 mv /usr/share/sounds/JAZ~2 //usr/share/sounds/Jazz
 mv /usr/share/sounds/PEANU~2 /usr/share/sounds/Peanuts
 mv /usr/share/sounds/GARFIE~2 /usr/share/sounds/Garfield
-
+echo "Configuration Fonts...$(fc-cache)"
+sleep 8s
 echo "Deleting temporary files"
 sleep 3s
 echo "Saved Settings"
@@ -300,3 +302,6 @@ sleep 3s
 echo "Removing Backup"
 sleep 2s
 clear
+Finished Installation...
+sleep 7s
+exit
