@@ -1,6 +1,6 @@
-# PreBeta 9.97
+# Beta 10.0
 Plus98! for Linux
-img="https://github.com/J1PH/Plus98_for_Linux/blob/master/PLUS98-BACKGROUNDS/WINDOWS%2098/Windows%2098%20wallpaper.jpg" screen=display
+<img scr="https://github.com/J1PH/Plus98_for_Linux/blob/master/PLUS98-BACKGROUNDS/WINDOWS%2098/Windows%2098%20wallpaper.jpg" screen=display </img>
 # Cinammon, xfce, gnome
 Microsoft Plus98 adaptado para distro Linux
 Incie el instalador como root
