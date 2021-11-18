@@ -1,11 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=More Windows (high Color)
+Name=Fashion (high Color)
+Name[es]=Moda (Alto Color)
 Comment=Microsoft Windows 98 (Plus)
 Version=v1.0
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Windows 95
-MetacityTheme=Windows 95
+GtkTheme=Fashion
+MetacityTheme=Fashion
 ButtonLayout=:minimize,maximize,close
