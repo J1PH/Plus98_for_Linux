@@ -156,7 +156,7 @@ StScrollBar StButton#vhandle:hover {
 .popup-combo-menu {
     background-color: rgba(0,0,0,0.9);
     padding: 1em 0em;
-    color: #000;
+    color: #000000;
     font-size: 10.5pt;
     border: 1px solid #00A7FB;
     border-radius: 0px 0px 8px 0px;
@@ -172,7 +172,7 @@ StScrollBar StButton#vhandle:hover {
     spacing: 1em;
 }
 .popup-menu-item:active {
-    background-color: #000;
+    background-color: #000000;
     color: #00f500;
 }
 .popup-menu-item:insensitive {
@@ -753,10 +753,10 @@ border-radius: 0px;
 }
 
 .calendar-change-month-back:hover {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.4);
 }
 .calendar-change-month-back:active {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.4);
 }
 
 .calendar-change-month-forward {
@@ -794,7 +794,7 @@ border-radius: 0px;
 
 .calendar-day-base:hover {
     background-color: #399cee;
-    color: #000;
+    color: #000000;
 }
 
 .calendar-day-base:active {
@@ -862,11 +862,11 @@ border-radius: 0px;
     margin-from-right-edge-of-screen: 19px;
     margin-from-top-edge-of-screen: 30px;
     width: 27em;
-    color: black;
+    color: #000000;
 }
 #notification.multi-line-notification {
     padding-bottom: 8px;
-    color: black;
+    color: #000000;
 }
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
     taken into account during allocation, so its height ends up being limited by the height
@@ -874,7 +874,7 @@ border-radius: 0px;
     height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 = 159 */
 .notification-with-image {
     min-height: 159px;
-    color: black;
+    color: #000000;
 }
 #notification-scrollview {
     max-height: 10em;
@@ -934,13 +934,13 @@ border-radius: 0px;
 .hotplug-resident-mount {
     spacing: 8px;
     border-radius: 4px;
-    color: #black;
+    color: #000000;
 }
 .hotplug-resident-mount:hover {
     background-gradient-direction: horizontal;
     background-gradient-start: rgba(255, 255, 255, 0.1);
     background-gradient-end: rgba(255, 255, 255, 0);
-    color: #000;
+    color: #000000;
 }
 .hotplug-resident-mount-label {
     color: inherit;
@@ -956,29 +956,29 @@ border-radius: 0px;
 .hotplug-resident-eject-button {
     padding: 7px;
     border-radius: 5px;
-    color: #ccc;
+    color: #cccccc;
 }
 #notification StEntry {
     padding: 4px;
     border-radius: 4px;
     color: black;
-    selected-color: black;
+    selected-color: #000000;
     border: 1px solid rgba(245,245,245,0.2);
     background-gradient-direction: vertical;
-    background-gradient-start: white;
-    background-gradient-end: white;
+    background-gradient-start: #ffffff;
+    background-gradient-end: #ffffff;
     transition-duration: 300;
     caret-color: black;
     caret-size: 1px;
 }
 #notification StEntry:focus {
     border: 1px solid #8b8b8b;
-    color: black;
+    color: #000000;
     background-gradient-direction: vertical;
-    background-gradient-start: white;
-    background-gradient-end: white;
-    caret-color: black;
-    selection-color: white;
+    background-gradient-start: #ffffff;
+    background-gradient-end: #ffffff;
+    caret-color: #000000;
+    selection-color: #ffffff;
     selection-background-color: #0A2469;
 }
 
@@ -1038,14 +1038,14 @@ border-radius: 0px;
 }
 
 .switcher-list .item-box:outlined {
-        color: #000;
+        color: #000000;
         background-color: #399cee;    
         border-radius: 0px;
 }
 
 .switcher-list .item-box:selected {
         border-image: url('scrollthrough.png') 10 12 10 12;
-        color: #000;
+        color: #000000;
         background-color: #1c40a8;
         border-radius: 0;
 }
@@ -1091,7 +1091,7 @@ border-radius: 0px;
 
 .switcher-arrow:highlighted {
     border-color: rgba(0,0,0,0);
-    color: white;
+    color: #ffffff;
 }
 
 .switcher-preview-backdrop {
@@ -1108,7 +1108,7 @@ border-radius: 0px;
     background-color: #687868;
     border-image: url('caption.png') 10 12 10 12;
     border: 2px solid #D4CFC7;
-    color: #000;
+    color: #000000;
     padding-right: 42px;
     padding-left: 42px;
     padding-bottom: 30px;
@@ -1122,7 +1122,7 @@ border-radius: 0px;
 .modal-dialog-button {
     border-radius: 4px;
     font-size: 10pt;
-    color: black;
+    color: #000000;
     border: 1px solid rgba(0,0,0,0);
     margin-left: 10px;
     margin-right: 10px;
@@ -1139,7 +1139,7 @@ border-radius: 0px;
 
 .run-dialog-label {
     font-size: 9pt;
-    color: black;
+    color: #000000;
     padding: 4px;
 }
 
@@ -1156,15 +1156,15 @@ border-radius: 0px;
 .run-dialog-entry {
     font-size: 10pt;
     font-weight: normal;
-    background-color: white;
+    background-color: #ffffff;
     border-image: url('scrollthrough.png') 10 12 10 12;
-    color: black;
-    background-gradient-start: white;
-    background-gradient-end: white;
+    color: #000000;
+    background-gradient-start: #ffffff;
+    background-gradient-end: #ffffff;
     background-gradient-direction: vertical;
     selection-background-color: #0A2469;
-    selected-color: white;
-    caret-color: black;
+    selected-color: #ffffff;
+    caret-color: #000000;
     caret-size: 2px;
     padding-top: 3px;
     padding-left: 10px;
@@ -1199,7 +1199,7 @@ border-radius: 0px;
 .end-session-dialog-subject {
     font-size: 12pt;
     font-weight: bold;
-    color: #000;
+    color: #000000;
     padding-top: 10px;
     padding-left: 17px;
     padding-bottom: 30px;
@@ -1239,10 +1239,10 @@ border-radius: 0px;
     padding-left: 32px;
 }
 .end-session-dialog-app-list-item {
-    color: #ccc;
+    color: #cccccc;
 }
 .end-session-dialog-app-list-item:hover {
-    color: white;
+    color: #ffffff;
 }
 .end-session-dialog-app-list-item:ltr {
     padding-right: 1em;
@@ -1291,7 +1291,7 @@ border-radius: 0px;
 .show-processes-dialog-description,
 .mount-question-dialog-description {
     font-size: 10pt;
-    color: white;
+    color: #ffffff;
     padding-left: 17px;
     width: 28em;
 }
@@ -1311,10 +1311,10 @@ border-radius: 0px;
     padding-left: 32px;
 }
 .show-processes-dialog-app-list-item {
-    color: #ccc;
+    color: #cccccc;
 }
 .show-processes-dialog-app-list-item:hover {
-    color: white;
+    color: #ffffff;
 }
 .show-processes-dialog-app-list-item:ltr {
     padding-right: 1em;
@@ -1385,9 +1385,9 @@ border-radius: 0px;
 
 .polkit-dialog-password-entry {
     background-gradient-start: rgb(236,236,236);
-    background-gradient-end: white;
+    background-gradient-end: #ffffff;
     background-gradient-direction: vertical;
-    color: black;
+    color: #000000;
     border-radius: 5px;
     border: 2px solid #555753;
 }
@@ -1398,7 +1398,7 @@ border-radius: 0px;
 
 .polkit-dialog-password-entry .capslock-warning {
     icon-size: 16px;
-    warning-color: #999;
+    warning-color: #999999;
     padding: 0 4px;
 }
 
@@ -1511,7 +1511,7 @@ border-radius: 1px;
 }
 
 .keyboard-subkeys {
-    color: white;
+    color: #ffffff;
     padding: 5px;
     -arrow-border-radius: 2px;
     -arrow-background-color: #1b1b1c;
@@ -1555,7 +1555,7 @@ border-radius: 1px;
 }
 .menu-favorites-button:hover {
     background-color: #0A2469;
-    color: white;
+    color: #ffffff;
     border: 1px solid rgba(0,0,0,0.35);
     border-radius: 0;
 }
@@ -1582,7 +1582,7 @@ border-radius: 1px;
 .menu-application-button-selected {
     padding: 5px;
     background-color: #0A2469;
-    color: white;
+    color: #ffffff;
     border: 1px solid rgba(0,0,0,0.35);
     border-radius: 1px;
 }
@@ -1598,13 +1598,13 @@ border-radius: 1px;
 }
 .menu-category-button-greyed {
     padding: 7px;
-    color: #999;
+    color: #999999;
     font-style: normal;
     border: 1px solid rgba(255,255,255,0.0);
 }
 .menu-category-button-selected {
     padding: 7px;
-    background-color: #000;
+    background-color: #000000;
         color: #00f500;
     border: 1px solid rgba(0,0,0,0.35);
     border-radius: 1px;
@@ -1642,10 +1642,10 @@ border-radius: 1px;
     background-gradient-end: white;
     background-gradient-direction: vertical;
     selection-background-color: black;
-    selected-color: white;
+    selected-color: #ffffff;
     border: solid 3px transparent;
     padding: 4px;
-    color: black;
+    color: #000000;
     caret-size: 1px;
     border-image: url('scrollthrough.png') 10 12 10 12;
 }
