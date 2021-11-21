@@ -56,12 +56,12 @@ StScrollBar StButton#vhandle:hover {
 }
 
 #Tooltip {
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-image: url('caption.png') 10 12 10 12;
     border-radius: 0px;
     padding: 2px 12px;
     background-color: #d4cfc7;
-    color: #000;
+    color: #000000;
     font-size: 8.5pt;
     font-weight: normal;    
     text-align: center;
@@ -74,7 +74,7 @@ StScrollBar StButton#vhandle:hover {
 .notification-button, .notification-icon-button,
 .hotplug-notification-item, .hotplug-resident-eject-button,
 .modal-dialog-button {
-    color: black;
+    color: #000000;
     border-image: url('caption.png') 10 12 10 12;
     font-size: 8.5pt;
     font-weight: normal;    
@@ -84,7 +84,7 @@ StScrollBar StButton#vhandle:hover {
 .notification-button:hover,
 .notification-icon-button:hover, .hotplug-notification-item:hover,
 .hotplug-resident-eject-button:hover, .modal-dialog-button:hover {
-    color: black;
+    color: #000000;
     border-image: url('caption.png') 10 12 10 12;
 }
 
@@ -97,7 +97,7 @@ StScrollBar StButton#vhandle:hover {
 .notification-button:active, .notification-icon-button:active,
 .hotplug-notification-item:active, .hotplug-resident-eject-button:active,
 .modal-dialog-button:active, .modal-dialog-button:pressed {
-    color: black;
+    color: #000000;
     border-image: url('scrollthrough.png') 10 12 10 12;
 }
 
@@ -124,7 +124,7 @@ StScrollBar StButton#vhandle:hover {
     background-gradient-direction: vertical;
     background-gradient-start: #908070;
     background-gradient-end: #908070;
-    color: #000;
+    color: #000000;
     font-size: 9pt;
 }
 .popup-submenu-menu-item:open {
@@ -369,13 +369,13 @@ transition-duration: 150;
 }
 
 .panel-button:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .panel-button:active,
 .panel-button:overview,
 .panel-button:focus {
-    color: white;
+    color: #ffffff;
     background-gradient-direction: vertical;
     background-gradient-start: rgba(30,30,30,1);
     background-gradient-end: rgba(50,50,50,1);
@@ -384,7 +384,7 @@ transition-duration: 150;
 .panel-button:active > .system-status-icon,
 .panel-button:checked > .system-status-icon,
 .panel-button:focus > .system-status-icon {
-    icon-shadow: black 0px 2px 2px;
+    icon-shadow: #000000 0px 2px 2px;
 }
 
 .panel-menu {
@@ -409,7 +409,7 @@ transition-duration: 150;
 .window-caption {
     border-image: url('caption.png') 10 12 10 12;
     border-radius: 0px;
-    color: black;
+    color: #000000;
     spacing: 25px;
 }
 
@@ -474,7 +474,7 @@ transition-duration: 150;
 
 
 .workspace-thumbnail-indicator {
-    outline: 2px solid white;
+    outline: 2px solid #ffffff;
     border: 1px solid #888;
 }
 
@@ -521,7 +521,7 @@ transition-duration: 150;
     padding: 3px;
     border: 1px rgba(0,0,0,0);
     font-size: 7.5pt;
-    color: white;
+    color: #ffffff;
     transition-duration: 100;
     text-align: center;
 }
@@ -535,8 +535,8 @@ transition-duration: 150;
 }
 
 .expo-workspace-thumbnail-frame {
-  border: 4px, black;
-  background-color: black;
+  border: 4px, #000000;
+  background-color: #000000;
   border-image: url('caption.png') 10 12 10 12;
 }
 
@@ -729,6 +729,11 @@ border-radius: 0px;
     padding: .4em 1.75em;
     spacing-rows: 0px;
     spacing-columns: 0px;
+    background-color: #908070;
+    border-color: #908070;
+    font: Comics Sans;
+    font-style: Regular;
+    font-size: 9pt;
 }
 
 .calendar-month-label {
@@ -823,7 +828,7 @@ border-radius: 0px;
 }
 
 .calendar-nonwork-day {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #908070;
 }
 
 .calendar-today {
@@ -933,7 +938,7 @@ border-radius: 0px;
 .hotplug-resident-mount {
     spacing: 8px;
     border-radius: 4px;
-    color: #black;
+    color: #000000;
 }
 .hotplug-resident-mount:hover {
     background-gradient-direction: horizontal;
@@ -974,10 +979,10 @@ border-radius: 0px;
     border: 1px solid #8b8b8b;
     color: black;
     background-gradient-direction: vertical;
-    background-gradient-start: white;
-    background-gradient-end: white;
-    caret-color: black;
-    selection-color: white;
+    background-gradient-start: #ffffff;
+    background-gradient-end: #ffffff;
+    caret-color: #000000;
+    selection-color: #ffffff;
     selection-background-color: #0A2469;
 }
 
@@ -999,7 +1004,7 @@ border-radius: 0px;
     padding: 20px;
     border-image: url('border-menu.png') 10 12 10 12;
     box-shadow: 2px solid rgba(0,0,0,0.4) 2px 2px;
-    color: black;
+    color: #000000;
 }
 
 .switcher-list-item-container {
@@ -1138,7 +1143,7 @@ border-radius: 0px;
 
 .run-dialog-label {
     font-size: 9pt;
-    color: black;
+    color: #000000;
     padding: 4px;
 }
 
@@ -1155,15 +1160,15 @@ border-radius: 0px;
 .run-dialog-entry {
     font-size: 10pt;
     font-weight: normal;
-    background-color: white;
+    background-color: #000000;
     border-image: url('scrollthrough.png') 10 12 10 12;
     color: black;
-    background-gradient-start: white;
-    background-gradient-end: white;
+    background-gradient-start: #ffffff;
+    background-gradient-end: #ffffff;
     background-gradient-direction: vertical;
     selection-background-color: #0A2469;
-    selected-color: white;
-    caret-color: black;
+    selected-color: #ffffff;
+    caret-color: #000000;
     caret-size: 2px;
     padding-top: 3px;
     padding-left: 10px;
@@ -1241,7 +1246,7 @@ border-radius: 0px;
     color: #ccc;
 }
 .end-session-dialog-app-list-item:hover {
-    color: white;
+    color: #000000;
 }
 .end-session-dialog-app-list-item:ltr {
     padding-right: 1em;
@@ -1290,7 +1295,7 @@ border-radius: 0px;
 .show-processes-dialog-description,
 .mount-question-dialog-description {
     font-size: 10pt;
-    color: white;
+    color: #ffffff;
     padding-left: 17px;
     width: 28em;
 }
@@ -2130,7 +2135,7 @@ The colour parameters are red, green, blue, and transparency or a name */
     font-size: 18pt;
     font-weight: normal;
     border-image: url('caption.png') 10 12 10 12;
-    color: black;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -2138,7 +2143,7 @@ The colour parameters are red, green, blue, and transparency or a name */
 .osd-window {
     border-image: url('caption.png') 10 12 10 12;
     padding: 20px;
-    color: black;
+    color: #000000;
     spacing: 1em;
 }
 
