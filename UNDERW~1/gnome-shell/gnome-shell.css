@@ -17,8 +17,8 @@
 * more details.
 */
 stage {
-	font-family: Source Sans Pro, Cantarell, Sans-Serif;
-	font-size: 11pt;
+	font-family: Impact, Sans-Serif;
+	font-size: 9pt;
 	color: #4c4c4c; }
 
 /* WIDGETS */
@@ -70,7 +70,7 @@ StEntry {
 	border-color: none;
 	box-shadow: solid 2px gray;
 	selection-background-color:#ffffff;
-	selected-color: white; }
+	selected-color: #ffffff; }
 	StEntry:focus {
 		background-color: #fff;
 		color: #4c4c4c;
@@ -152,7 +152,7 @@ StScrollBar {
 	font-size: 110%; }
 
 .lightbox {
-	background-color: rgba(25,25,25,0.75); }
+	background-color: #4c4c4c; }
 
 .flashspot {
 	background-color: rgba(25,25,25,0.75); }
@@ -160,7 +160,7 @@ StScrollBar {
 .modal-dialog {
 	border-radius: 0px;
 	color: white;
-	background-color: rgba(25,25,25,0.75);
+	background-color: #4c4c4c;
 	border: none;
 	box-shadow: 0 5px 10px 0 rgba(25,25,25,0.5);
 	padding: 24px; }
@@ -321,7 +321,8 @@ StScrollBar {
 .prompt-dialog {
 	width: 500px;
 	border-radius: 0px;
-	border: none; }
+	border: none;
+        background-color: #4c4c4c; }
 
 .prompt-dialog-main-layout {
 	spacing: 24px;
