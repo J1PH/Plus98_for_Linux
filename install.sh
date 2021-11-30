@@ -1,4 +1,5 @@
 #!/bin/sh
+#FONT=SYSTEM.FON, VGA.TTF
 echo " Detected Lenguage Install English"
 echo "Checking if your system is compatible ..."
 lsb_release -i
