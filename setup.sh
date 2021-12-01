@@ -1,4 +1,5 @@
 #!/bin/sh
+#CD-ROM PLUS98
 paplay ./Setup.wav
 _menu()
 {
@@ -46,7 +47,7 @@ do
             ;;
         3)
             _mostrarResultado $opc
-            df /dev/sda1
+            df /dev/null
             _menu
             ;;
         4)
