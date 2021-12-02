@@ -11,7 +11,8 @@ echo
     echo "1) Continue"
     echo "2) Uninstall Plus98!"
     echo "3) Check Enough Space"
-    echo "4) Exit"
+    echo "4) Install Basic"
+    echo "5) Exit"
     echo
     echo -n "Select an option: "
 }
@@ -30,7 +31,7 @@ _mostrarResultado()
 opc="0"
  
 # bucle mientas la opcion indicada sea diferente de 9 (salir)
-until [ "$opc" -eq "4" ];
+until [ "$opc" -eq "5" ];
 do
     case $opc in
         1)
@@ -51,6 +52,12 @@ do
             _menu
             ;;
         4)
+           _mostrarResultado $opc
+         chmod -x /Plus98/Plus98_Basic.sh
+         sh ./Plus98/Plus98_Basic.sh
+           _menu
+           ;;
+        5)
             _mostrarResultado $opc
             exit
             _menu
