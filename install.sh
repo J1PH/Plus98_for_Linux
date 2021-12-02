@@ -1,5 +1,6 @@
 #!/bin/sh
 #FONT=SYSTEM.FON, VGA.TTF
+echo "Space Necessary: 100MB"
 echo " Detected Lenguage Install English"
 echo "Checking if your system is compatible ..."
 lsb_release -i
